@@ -16,6 +16,27 @@ This system enables users to:
 The system also automatically calculates team stats (e.g., shooting percentages, fouls, rebounds) based on individual player data and reflects game states (Final or Not Started).
 
 ---
+## 📁 Repository Structure
+├── Code/
+│   ├── base_code_nba.py             # SQLAlchemy schema and base setup
+│   ├── insert_nba_data.py           # CLI tool for inserting games and stats
+│   └── nba_box_score.py             # Logic for querying and displaying stats
+│
+├── Database/
+│   ├── NBA.db                       # Main database: teams, games, players
+│   └── NBA_BoxScore.db              # Box score tracking for each game
+│
+├── Document/
+│   ├── AIprompts.pdf                # Prompt logs for Claude and ChatGPT
+│   ├── NBA Box Score.pdf            # User-facing box score reference
+│   ├── annotatedRequirements.pdf    # Schema constraints and business rules
+│   └── reflection.pdf               # Project development reflection
+│
+├── .gitignore                       # Files to ignore in Git tracking
+├── LICENSE                          # MIT License
+└── README.md                        # Project overview (this file)
+
+---
 
 ## 🧠 AI Collaboration
 
@@ -24,12 +45,6 @@ We leveraged state-of-the-art large language models to assist in code generation
 - **OpenAI ChatGPT-4o**: Used for building and refactoring SQLAlchemy-based backend and table display logic.
 
 Prompts and iterations used in development are documented in `AIprompts.pdf`.
-
----
-
-## 📁 Repository Structure
-
-
 
 ---
 
