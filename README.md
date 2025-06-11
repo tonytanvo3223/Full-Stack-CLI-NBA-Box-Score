@@ -17,6 +17,7 @@ The system also automatically calculates team stats (e.g., shooting percentages,
 
 ---
 ## 📁 Repository Structure
+```text
 ├── Code/
 │   ├── base_code_nba.py             # SQLAlchemy schema and base setup
 │   ├── insert_nba_data.py           # CLI tool for inserting games and stats
@@ -35,6 +36,7 @@ The system also automatically calculates team stats (e.g., shooting percentages,
 ├── .gitignore                       # Files to ignore in Git tracking
 ├── LICENSE                          # MIT License
 └── README.md                        # Project overview (this file)
+```
 
 ---
 
